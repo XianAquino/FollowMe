@@ -8,6 +8,7 @@ import App from './components/App.jsx';
 
 const render = () => {
   ReactDOM.render(
+    // pass redux store as a prop inside Provider to make it available to all components
     <Provider store = {store}>
       <Router>
         <Route path="/" component={App} />

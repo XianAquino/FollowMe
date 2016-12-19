@@ -5,7 +5,6 @@ const combinedReducers = combineReducers({
   //fill in with reducers
 });
 
-
 const store = createStore(combinedReducers);
 
 export default store;
