@@ -11,7 +11,7 @@ const render = () => {
     <Provider store = {store}>
       <Router>
         <Route path="/" component={App} />
-        {/* {fill in with other components that needs a specif route} */}
+        {/* {fill in with other components that needs a specific route} */}
       </Router>
     </Provider>
   ,document.getElementById('app'));
